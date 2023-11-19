@@ -16,7 +16,7 @@ const CountTracker = () => {
 
       const nextFriday = new Date(currentDate);
       nextFriday.setDate(currentDate.getDate() + daysUntilNextFriday);
-      nextFriday.setHours(0, 0, 0, 0);
+      nextFriday.setHours(0o0, 0o0, 0o0, 0o0);
 
       return nextFriday.getTime();
     };
@@ -51,9 +51,6 @@ const CountTracker = () => {
 
   return (
     <>
-    <div className="text-center relative top-5 lg:text-3xl md:text-2xl sm:text-sm hover:opacity-30 hover:underline lg:hover:animate-ping">
-      <h5>Black Friday Count Down:</h5>
-    </div>
     <div className="my-0 flex justify-center gap-7 lg:relative lg:top-10 font-bold opacity-70 animate-bounce">
       <div className="countdown-unit mt-2">
         
