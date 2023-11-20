@@ -2,8 +2,6 @@
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 
-import React from "react";
-
 const Main = () => {
   return (
     <>
@@ -26,15 +24,15 @@ const Main = () => {
           < div className="flex items-center my-12 max-w-md md:max-w-xs rounded overflow-hidden shadow-lg">
               <img
                 className="w-full h-100 md:h-36 object-fill rounded-2xl"
-                src="/src/assets/Rooms/room3.jpeg"
+                src="/src/assets/Rooms/room3.jpg"
                 alt="Room Image"
               />
-            <div className="px-5 py-4 w-full">
+            <div className="px-5 py-4 w-full pt-10 pl-5">
               <h5 className="font-extralight underline">Per Person Sharing</h5>
               <p className="text-red-500 text-md my-4">Price was N$900</p>
               <p className="text-green-500 text-md m-2 my-5">Now 15% off!</p>
               <button
-                className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                className="bg-red-500 hover:bg-red-700 text-white w-full font-bold py-2 px-4 rounded"
                 onClick={() =>
                   (window.location.href =
                     "https://www.booking.com/hotel/na/anns-self-catering-and-camping-kamanjab.html")
@@ -55,11 +53,11 @@ const Main = () => {
           </h5>
           <div className="flex items-center my-12 max-w-md md:max-w-xs rounded-xl overflow-hidden shadow-lg">
             <img
-              className="w-full h=100 md:h-36 object-cover rounded-2xl"
-              src="/src/assets/Rooms/room3.jpeg"
+              className="w-full h-100 md:h-36 object-cover rounded-2xl"
+              src="/src/assets/Rooms/room3.jpg"
               alt="Room Image"
             />
-            <div className="px-5 py-4 w-full">
+            <div className="px-5 py-4 w-full pt-10 pl-5">
               <h5 className="font-extralight underline">Per Person Sharing</h5>
               <p className="text-red-500 text-md my-4">Price was N$700</p>
               <p className="text-green-500 text-md m-2 my-5">Now 15% off!</p>

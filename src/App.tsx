@@ -8,9 +8,9 @@ export default function App(){
            <Navbar />
            <br className="my-5" />
            <Hero />
-           <br className="my-5" />
+           <br className="my-3" />
            <BlackSale />
-           <br className="my-5" />
+           <br className="my-1" />
            <Food />
         </div>
     )
