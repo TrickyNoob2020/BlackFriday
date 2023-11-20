@@ -51,10 +51,10 @@ const CountTracker = () => {
 
   return (
     <>
-    <div className="my-0 flex justify-center gap-7 lg:relative lg:top-10 font-bold opacity-70 animate-bounce">
+    <div className="my-0 flex justify-center gap-7 lg:gap-32 relative lg:top-10 bottom-10 font-bold opacity-70 animate-bounce lg:hover:text-red-900">
       <div className="countdown-unit mt-2">
         
-        <div className="countdown-value text-center lg:text-3xl md:text-md sm:text-sm">
+        <div className="countdown-value text-center lg:text-7xl md:text-md sm:text-sm">
           {countdown.days}
           <div className="countdown-label lg:text-2xl md:text-md sm:text-sm font-extralight text-orange-500 underline">
           Days
@@ -63,7 +63,7 @@ const CountTracker = () => {
       </div>
       <div className="countdown-unit m-2">
         
-        <div className="countdown-value text-center lg:text-3xl md:text-md sm:text-sm">
+        <div className="countdown-value text-center lg:text-7xl md:text-md sm:text-sm">
           {countdown.hours}
           <div className="countdown-label lg:text-2xl md:text-md sm:text-sm font-extralight text-orange-500 underline">
           Hours
@@ -72,7 +72,7 @@ const CountTracker = () => {
       </div>
       <div className="countdown-unit m-2">
         
-        <div className="countdown-value text-center lg:text-3xl md:text-md sm:text-sm">
+        <div className="countdown-value text-center lg:text-7xl md:text-md sm:text-sm">
           {countdown.minutes}
           <div className="countdown-label lg:text-2xl md:text-md sm:text-sm font-extralight text-orange-500 underline">
           Minutes
@@ -81,7 +81,7 @@ const CountTracker = () => {
       </div>
       <div className="countdown-unit my-2">
         
-        <div className="countdown-value text-center lg:text-3xl md:text-md sm:text-sm">{countdown.seconds}</div>
+        <div className="countdown-value text-center lg:text-7xl md:text-md sm:text-sm">{countdown.seconds}</div>
         <div className="countdown-label lg:text-2xl md:text-md sm:text-sm font-extralight text-orange-500 underline">
           Seconds
         </div>

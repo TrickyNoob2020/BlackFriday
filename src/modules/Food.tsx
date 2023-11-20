@@ -5,7 +5,7 @@ const Food =() =>{
           <h2 className="lg:text-5xl md:text-4xl sm:text-3xl underline font-bold mb-4 opacity-0 animate-pulse">Food & Beverages</h2>
           <hr className='my-10'/>
           <p className='lg:text-3xl md:text-2xl sm:text-sm lg:font-serif sm:font-extrathin '>
-          <span style={{fontSize:'3rem'}}>Welcome to our Food & Beverages</span>  Enjoy a delightful dining experience with a variety
+          <p style={{fontSize:'3rem'}}>Welcome to our Food & Beverages</p><br/>Enjoy a delightful dining experience with a variety
           of culinary delights. Lunch and Dinner for adults are 10% off, and children aged 0-11 dine for free.
           </p>
           <p className='lg:text-3xl md:text-2xl sm:text-sm'>
@@ -21,7 +21,7 @@ const Food =() =>{
         </button>
         <br />
         <button
-          className="bg-blue-500 hover:bg-blue-700 lg:text-2xl md:text-md sm:text-sm text-white font-bold py-2 px-4 mt-4"
+          className="bg-blue-500 hover:bg-blue-700 lg:text-2xl md:text-md sm:text-sm text-white font-bold py-2 px-4 mt-4 rounded-s-md"
           onClick={() => window.location.href = "mailto:strausswilna@gmail.com"}
         >
           Email Reservation
