@@ -24,7 +24,7 @@ const Main = () => {
           < div className="flex items-center my-12 max-w-md md:max-w-xs rounded overflow-hidden shadow-lg">
               <img
                 className="w-full h-100 md:h-36 object-fill rounded-2xl"
-                src="/src/assets/Rooms/room3.jpg"
+                src="/assets/Rooms/room3.jpg"
                 alt="Room Image"
               />
             <div className="px-5 py-4 w-full pt-10 pl-5">
