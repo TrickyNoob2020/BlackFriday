@@ -30,7 +30,7 @@ const Main = () => {
           
             <div className="flex flex-col lg:flex-row px-10 py-10 lg:max-w-full lg:pt-5 lg:pl-10">
               <h5 className="font-extralight font-poppins underline animate-bounce">Per Person Sharing</h5>
-              <p className="text-red-500 text-md my-4">Price was N$700</p>
+              <p className="text-red-500 text-md my-4">Price was N$900</p>
               <p className="text-green-500 text-md m-2 my-5">Now 15% off!</p>
               <button
                 className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 lg:rounded-md w-6xl"
